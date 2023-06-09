@@ -1,0 +1,170 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.contenedor
+{
+	width: 1200px;
+	background-color: rgb(247,247,247);
+	margin: 0px auto;
+	font-family: 'Bangers', cursive;
+	font-family: 'Passion One', cursive;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Staatliches', cursive;
+}
+.logo
+{
+	width: 180px;
+	height: 120px;
+	padding: 15px;
+	box-sizing: border-box;
+	float: left;
+	padding-bottom: 20px;
+}
+.logo img
+{
+	width: 130px;
+	padding-left: 20px;
+}
+header
+{
+	width: 1200px;
+	height: 119px;
+	border: 1px solid rgb(255, 77, 183);
+}
+nav
+{
+	width: 1000px;
+	height: 69px;
+	background-color: rgb(255, 77, 183);
+	float: right;
+	margin-top: 50px;
+}
+nav li
+{
+	width: 200px;
+	height: 100px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 70px;
+}
+nav a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+	transition: ease 0.5s;
+	font-weight: 600;
+	font-size: 25px;
+}
+nav a:hover
+{
+	background-color: rgb(199, 37, 133 );
+	color: rgb(136, 25, 91 );
+}
+section
+{
+	width: 1200px;
+}
+.boton a 
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+	border-radius: 8px;
+}
+.boton a:hover 
+{
+	background-color: rgb(247, 247, 247);
+	color: rgb(158, 81, 182)
+}
+.box
+{
+	width: 1150px;
+	height: 500px;
+	display: flex;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+.box_img1
+{
+	width: 600px;
+	height: 500px;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.box_img1 img
+{
+	width: 600px;
+}
+.box_img1
+{
+	width: 600px;
+	height: 485px;
+	overflow: hidden;
+}
+.box_text
+{
+	width: 550px;
+	height: 485px;
+	background-color: rgb(196, 52, 122);
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+	box-sizing: border-box;
+	margin-top: 15px;
+}
+.box_text img
+{
+	width: 220px;
+}
+.box_text h2
+{
+	font-family: 'Nunito', sans-serif;
+	font-size: 48px;
+	font-weight: 900px;
+}
+.box_text a
+{
+	background-color: white;
+	padding: 15px 18px;
+	border: 1px solid black;
+	margin: 6px;
+	color: black;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	border-radius: 27px;
+}
+.box_text p
+{
+	padding-bottom: 30px;
+}
+.box_text a:hover
+{
+	background-color: black;
+	color: white;
+}
+footer
+{
+	width: 1200px;
+	height: 10px;
+	background-color: white;
+	margin-top: 20px;
+	padding-top: 500px;
+}
+.redes
+{
+	height: 200px;
+	background-color: rgb(0,0,0);
+	padding-top: 15px;
+	padding-left: 170px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.redes img
+{
+	width: 90px;
+	margin: 50px;
+}

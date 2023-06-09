@@ -1,0 +1,155 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.contenedor
+{
+	width: 1200px;
+	background-color: rgb(247,247,247);
+	margin: 0px auto;
+	font-family: 'Bangers', cursive;
+	font-family: 'Passion One', cursive;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Staatliches', cursive;
+}
+.logo
+{
+	width: 180px;
+	height: 120px;
+	padding: 15px;
+	box-sizing: border-box;
+	float: left;
+	padding-bottom: 20px;
+}
+.logo img
+{
+	width: 130px;
+	padding-left: 20px;
+}
+header
+{
+	width: 1200px;
+	height: 119px;
+	border: 1px solid rgb(255, 77, 183);
+}
+nav
+{
+	width: 1000px;
+	height: 69px;
+	background-color: rgb(255, 77, 183);
+	float: right;
+	margin-top: 50px;
+}
+nav li
+{
+	width: 200px;
+	height: 100px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 70px;
+}
+nav a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+	transition: ease 0.5s;
+	font-weight: 600;
+	font-size: 25px;
+}
+nav a:hover
+{
+	background-color: rgb(199, 37, 133 );
+	color: rgb(136, 25, 91 );
+}
+section
+{
+	width: 1200px;
+}
+.boton
+{
+	width: 100px;
+	font-size: 15px;
+	border-radius: 8px;
+	text-align: center;
+	margin: 10px auto;
+	background-color: rgb(40, 3, 52 );
+	line-height: 25px;
+}
+.boton a 
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+	border-radius: 8px;
+}
+.boton a:hover 
+{
+	background-color: rgb(247, 247, 247);
+	color: rgb(158, 81, 182)
+}
+.titular
+{
+	text-align: left;
+	font-weight: 700;
+	font-size: 40px;
+	background-color: #D51D8A ;
+	padding: 15px;
+	color: white;
+	margin-top: 25px;
+	padding-left: 30px;
+}
+.galeria
+{
+	width: 1200px;
+}
+.card
+{
+	width: 260px;
+	float: left;
+	margin: 20px;
+	background-color: rgb(234, 224, 239);
+	border-radius: 20px;
+}
+.card_img
+{
+	width: 260px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.card_img img 
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card h2
+{
+	color: black;
+	font-size: 22px;
+	text-align: center;
+}
+footer
+{
+	width: 1200px;
+	height: 10px;
+	background-color: white;
+	margin-top: 20px;
+	padding-top: 1080px;
+}
+.redes
+{
+	height: 200px;
+	background-color: rgb(0,0,0);
+	padding-top: 15px;
+	padding-left: 170px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.redes img
+{
+	width: 90px;
+	margin: 50px;
+}
